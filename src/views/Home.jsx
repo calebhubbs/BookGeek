@@ -112,7 +112,7 @@ let cards = []
             <Input
               type="number"
               id="maxResults"
-              placeholder="Max Results"
+              placeholder="Max Results Allowed"
               value={maxResults}
               onChange={(e) => setMaxResults(e.target.value)}
             />
